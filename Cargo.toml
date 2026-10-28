@@ -133,7 +133,7 @@ wit-bindgen = { version = "0.59", default-features = false, features = ["macros"
 wstd = { version = "0.6", default-features = false }
 
 # WASM Component Model runtime (engine host).
-wasmtime = { version = "46", features = ["component-model"] }
+wasmtime = { version = "48", features = ["component-model"] }
 wasmtime-wasi = "46"
 # Host implementation of wasi:http; default features keep the hyper +
 # rustls outgoing backend (`default-send-request`) the engine fronts
